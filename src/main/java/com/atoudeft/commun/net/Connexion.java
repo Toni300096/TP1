@@ -46,6 +46,7 @@ public class Connexion {
 		try
 		 {
 			byte buf[] = new byte[2000];	//buffer de lecture
+
 						
 			if (is.available()<=0)
 				return "";
